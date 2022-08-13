@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/quest-app
+    username: admin
+    password: 12345
+server:
+  port: 8088
+
+
